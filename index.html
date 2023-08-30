@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Trang web của quân tà đạo</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Segoe UI', sans-serif;
+			background-color: orangered;
+		}
+		header {
+			background-color: #343a40;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+			font-size: 30px;
+		}
+		nav {
+			background-color: red;
+			padding: 20px;
+			text-align: center;
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav li {
+			display: inline-block;
+			margin-right: 20px;
+			font-size: 18px;
+		}
+		nav a {
+			color: #343a40;
+			text-decoration: none;
+			transition: color 0.2s ease;
+		}
+		nav a:hover {
+			color: yellow;
+		}
+		.section {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			padding: 20px;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+		.section-title {
+			text-align: center;
+			margin-bottom: 50px;
+			font-size: 24px;
+			width: 100%;
+			color: #343a40;
+		}
+		.card {
+			background-color: yellow;
+			box-shadow: 0 0 20px rgba(0,0,0,0.1);
+			border-radius: 10px;
+			padding: 20px;
+			margin-bottom: 20px;
+			max-width: 350px;
+			width: 100%;
+			transition: transform 0.1s ease;
+		}
+		.card:hover {
+			transform: translate(0,-5px);
+			box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+		}
+		.card-title {
+			font-size: 18px;
+			margin-bottom: 10px;
+			color: #343a40;
+		}
+		.card-image {
+			background-image: url('https://vcdn1-thethao.vnecdn.net/2017/09/11/a-1505104001-8812-1505104034.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=BD_eQlfXsPOapc4DGiHAuA');
+			background-position: center center;
+			background-size: cover;
+			height: 200px;
+			width: 100%;
+			border-radius: 10px;
+			margin-bottom: 10px;
+		}
+		.card-description {
+			font-size: 16px;
+			color: #666;
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+		.card-link {
+			display: inline-block;
+			color: #007bff;
+			text-decoration: none;
+			font-weight: bold;
+			margin-top: 10px;
+		}
+		.card-link:hover {
+			text-decoration: underline;
+		}
+		footer {
+			background-color: yellowgreen;
+			color: yellow;
+			padding: 20px;
+			text-align: center;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+		/* CSS cho phần tử mới */
+		.cards-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin: 0 auto;
+			padding: 20px;
+			max-width: 1200px;
+		}
+		.card {
+			background-color: lavenderblush;
+			box-shadow: 0 0 20px rgba(0,0,0,0.1);
+			border-radius: 10px;
+			padding: 20px;
+			margin-bottom: 20px;
+			max-width: 350px;
+			width: 100%;
+			transition: transform 0.2s ease;
+		}
+		.card:hover {
+			transform: translate(0,-5px);
+			box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+		}
+		.card-title {
+			font-size: 20px;
+			margin-bottom: 20px;
+			color: #343a40;
+		}
+		.card-image {
+			background-image: url('https://static.wikia.nocookie.net/ygo-vn-trans/images/4/4c/BlueEyesChaosMaxDragon-OW-2.png/revision/latest?cb=20170404115123&path-prefix=vi');
+			background-position: center center;
+			background-size: cover;
+			height: 600px;
+			width: 100%;
+			border-radius: 10px;
+			margin-bottom: 10px;
+		}
+		.card-description {
+			font-size: 16px;
+			color: #666;
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+		.card-link {
+			display: inline-block;
+			color: #007bff;
+			text-decoration: none;
+			font-weight: bold;
+			margin-top: 10px;
+		}
+		.card-link:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>NGUỒN GỐC BLUE EYE</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Từ khóa</a></li>
+			<li><a href="#">Giới thiệu</a></li>
+			<li><a href="#">blue eye</a></li>
+			<li><a href="#">verson</a></li>
+		</ul>
+	</nav>
+	<section class="section">
+		<div class="section-title">Sản phẩm mới nhất</div>
+		<div class="card">
+			<div class="card-image"></div>
+			<div class="card-title">tiêu đề 1</div>
+			<div class="card-description"> đây chính 1 pic được chụp cận cảnh.</div>
+			<a href="#" class="card-link">Chi tiết</a>
+		</div>
+		<div class="card">
+			<div class="card-image"></div>
+			<div class="card-title">tiêu đề 2</div>
+			<div class="card-description"> 1 sinh vật mang lại sự hủy diệt.</div>
+			<a href="#" class="card-link">Chi tiết</a>
+		</div>
+		<div class="card">
+			<div class="card-image"></div>
+			<div class="card-title">tiêu đề 3</div>
+			<div class="card-description">blue eye chaos max dragon.</div>
+			<a href="#" class="card-link">Chi tiết</a>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
